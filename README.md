@@ -1,2 +1,2 @@
 # Portfolio
-Created a Portfolio
+Created a Portfolio using HTML and CSS.
