@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pragna | Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <h1 class="logo">Pragna Portfolio</h1>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#project-details">Details</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+       
+        <section id="about" class="about-section">
+            <article class="about-image">
+                <img src="no-image.jpg" alt="">
+                <span class="fallback-text">Pragna</span>
+            </article>
+
+            <article class="about-content">
+                <h3>Hello<br>I’m Pragna</h3>
+                <p>
+                    Hello! I’m Pragna, a Software Engineer intern at Bounteous Accolite and a
+                    B.Tech student in CSE at VIT-AP. I’m passionate about developing web applications,
+                    exploring new technologies, and continuously improving my skills.
+                </p>
+                <ul class="info-list">
+                    <li><strong>Email:</strong> pragna.desu@bounteous.com</li>
+                    <li><strong>Location:</strong> Vijayawada, Andhra Pradesh, India</li>
+                    <li><strong>Skills:</strong> Java, HTML, CSS, JavaScript</li>
+                </ul>
+            </article>
+        </section>
+
+        
+        <section id="projects" class="projects-section">
+            <h2 class="section-heading">My Projects</h2>
+
+            <article class="project-card">
+                <h3><a href="#proj1-detail">Neutralising Sensationalized Headlines</a></h3>
+                <p>Natural Language Processing project</p>
+            </article>
+
+            <article class="project-card">
+                <h3><a href="#proj2-detail">Medication Reminder</a></h3>
+                <p>MERN Stack project</p>
+            </article>
+
+            <article class="project-card">
+                <h3><a href="#proj3-detail">Banking-Term Deposit Prediction</a></h3>
+                <p>Machine Learning project</p>
+            </article>
+
+            <article class="project-card">
+                <h3><a href="#proj4-detail">Sensor Based Vehicle Space Management</a></h3>
+                <p>Hardware Project</p>
+            </article>
+        </section>
+
+        
+        <section id="project-details" class="project-details">
+            <h2 class="section-heading">Project Details</h2>
+
+            <div class="project-detail" id="proj1-detail">
+                <h3>Neutralising Sensationalized Headlines</h3>
+                <p>
+                    This project is an NLP-based text transformation tool that converts sensationalized
+                    news headlines into neutral and factual tones. The system focuses on detecting exaggerations,
+                    rewriting sentences to remove bias, and maintaining the original meaning of the headline.
+                    It’s useful for news agencies and readers aiming for objective reporting.
+                    <br>
+                    <strong>Technologies used:</strong> Python, Natural Language Toolkit (NLTK), Regular Expressions, TextBlob.
+                </p>
+            </div>
+
+            <div class="project-detail" id="proj2-detail">
+                <h3>Medication Reminder</h3>
+                <p>
+                    Medimate is a user-friendly web application designed to help users manage and track
+                    their daily medication schedules efficiently. Users can set reminders for multiple medications,
+                    log doses, and receive timely notifications to ensure adherence to their routines.
+                    <br>
+                    <strong>Technologies used:</strong> HTML, CSS, JavaScript, LocalStorage, optional Bootstrap.
+                </p>
+            </div>
+
+            <div class="project-detail" id="proj3-detail">
+                <h3>Banking-Term Deposit Prediction</h3>
+                <p>
+                    This project is a Machine Learning model that predicts whether a bank client will
+                    subscribe to a term deposit based on historical client data. Features include age,
+                    balance, job type, and previous subscription history to train the model.
+                    <br>
+                    <strong>Technologies used:</strong> Python, Pandas, Scikit-learn, Jupyter Notebook, Matplotlib/Seaborn.
+                </p>
+            </div>
+
+            <div class="project-detail" id="proj4-detail">
+                <h3>Sensor-Based Vehicle Space Management</h3>
+                <p>
+                    This project is a smart parking management system that detects and displays
+                    available parking spaces in real-time. It uses sensors and microcontrollers 
+                    to monitor occupancy and sends the data to an online dashboard using ThingSpeak.
+                    The system helps drivers quickly locate free parking spaces, reduces congestion,
+                    and improves overall parking efficiency.
+                    <br>
+                    <strong>Technologies used:</strong> Arduino/Microcontrollers, Ultrasonic/IR Sensors, ThingSpeak IoT platform, C/C++, basic HTML/CSS.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>2026 Pragna | Bounteous x Accolite | VIT-AP</p>
+    </footer>
+</body>
+</html>
